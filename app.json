@@ -14,17 +14,17 @@
   "env": {
     "PREFIX": {
       "description": "choose your prefix of bot",
-      "value": "#",
+      "value": ".",
       "required": true
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "PM_PERMIT": {
@@ -34,8 +34,8 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "Zokou-MD",
-      "required": false
+      "value": "~ ₉₀₀₃",
+      "required": true
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
@@ -44,7 +44,7 @@
     },
     "PUBLIC_MODE": {
       "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_APY_KEY": {
@@ -57,18 +57,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0JPTXBiUHl0QUV3WXdIWks5Vm5DN1ZFNGpaSVBRYmU1aVJhbGNLSzFVND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ3QzQXN0Z05IMGoyc2JyT2xpcThMclhHS0pqYlE5U1dJZEdlQUVZS3dGRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1S3JtY2t6d0lpOXdRWTZwZFNXbWpXd3dkWGJzbWJMR3drSGd4cDJ4VmtZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLK3dDaDdwSEt5TjlwbXFNOUdHZHFWd3FxQk5JSzhJSGRVVWFyR0lSVTNJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjROTHY0WmF4Ty9GQzhCNE8yaVNac0xycGpyZGl0NXYzWjhUMFUvbGxTVUk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkgyeXQrQ0VNbmRYamcyRGdyNlJzamluQ1VFTVQxc3lIR0pzcTgxanFVMVk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkFuTnNaM2w5Qjg5eUhHZG9VK3ovSllIZ3VTcDNRUVlsd3IyRDhDMC9uOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidVFrUkJiSWI1UE5sNit6REpJMFJqWHJTWWV3bnJuNzVXbTZCVWg1SlQydz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InRIYjY2aGpTcnQ1QjdLRFo3aktuSWppVGFodHZzRWU3TGQ5eWhlUkFXNU9PaUdrWmdxN3BwRGQ3eTJROWlJUUcySW03NUlMUUlFc2tVTUVaTXRWNWdBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NCwiYWR2U2VjcmV0S2V5IjoiQlBETmNHM3E5VWhKTUExZmw2OUVURUhZRFVZenM2cEFCVVlmeEkrSC9Pcz0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjoxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjcteVZzbnVMVDJXU3cxMXFXYTd0VHciLCJwaG9uZUlkIjoiZWUwZWRmYjYtYjBkOC00MzNlLWFiYTQtZmM1OWJhMzIwMTNjIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5vbURDcGtZdllJN3dwVEc5c2ppRUNZU3h4QT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJraTM4ODZIaEI5cW5pbVZVeCtqNjdEOXAzWW89In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiVlBXWkNOOEIiLCJtZSI6eyJpZCI6IjUwOTM3MDQyODAxOjdAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1Bpa3NYNFFqOTJLdUFZWUJ5QUFLQUE9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InpFdWhhaTV5bXE0MGxRRm9YRzljWGlwdThxSFg3OUl5aFI5dExsRjFFa0k9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlIyWFhWazA4UGdmQzhkaGJiN1NpV3J1WEhmYnpGNlo5Z0RzYUtwYU8yekVPc1lZaGVBQmtRYk4vRlo0WHloRUorUXdYWlA0emthSGxIdE8vejFRK0N3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJaZ0VTemJZaGV0Vm80ZFhYVmVDcXF3VHB2SnBwRFZkL0V5Q0x4KzkvSDRub3FNK094ZTVKWTdNSGc5SmZOYUNxZG43VVVxZFBYeWdXczVYTHZTTUtpUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjUwOTM3MDQyODAxOjdAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCY3hMb1dvdWNwcXVOSlVCYUZ4dlhGNHFidktoMSsvU01vVWZiUzVSZFJKQyJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCJ9",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
-      "required": false,
-      "value": "Djalega++"
+      "required": true,
+      "value": "~ ₉₀₀₃"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-      "required": false,
-      "value": "22891733300"
+      "required": true,
+      "value": "50937042801"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -82,8 +82,8 @@
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "",
-      "required": false
+      "value": "2",
+      "required": true
     },
     "PM_CHATBOT": {
       "description": "Put yes if you want the bot to automatically respond to messages in private",
